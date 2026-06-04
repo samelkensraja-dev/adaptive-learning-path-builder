@@ -1,0 +1,7 @@
+{
+  "name": "adaptive-learning-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd adaptive-learning-frontend && ng serve --port 4200"
+  }
+}

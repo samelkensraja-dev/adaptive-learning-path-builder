@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ng version *)",
+      "Bash(ng new *)",
+      "Bash(mvn compile *)",
+      "Bash(mvn package *)",
+      "Bash(Start-Process java *)",
+      "Bash(Start-Sleep -Seconds 8)",
+      "Bash(Invoke-RestMethod -Uri \"http://localhost:8080/api/components\")",
+      "Bash(ConvertTo-Json -Depth 3)",
+      "PowerShell(Start-Process java -ArgumentList \"-jar\",\"D:\\\\nila\\\\adaptive-learning-backend\\\\target\\\\adaptive-learning-backend-1.0.0.jar\" -WindowStyle Minimized; Start-Sleep -Seconds 10; try { Invoke-RestMethod -Uri \"http://localhost:8080/api/components\" | ConvertTo-Json -Depth 3 } catch { \"API not yet ready: $_\" })",
+      "PowerShell(Start-Sleep -Seconds 10; try { Invoke-RestMethod -Uri \"http://localhost:8080/api/components\" | ConvertTo-Json -Depth 3 } catch { \"Still not ready: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(Get-Process java -ErrorAction SilentlyContinue)"
+    ]
+  }
+}

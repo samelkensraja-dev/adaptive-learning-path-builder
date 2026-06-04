@@ -1,0 +1,26 @@
+# ── Private key — NEVER commit ─────────────────────────────────────────────
+*.pem
+*.key
+privatekey*
+EncryptionDecryption/privatekey.pem
+
+# ── Backend build outputs ───────────────────────────────────────────────────
+adaptive-learning-backend/target/
+
+# ── Frontend build outputs ──────────────────────────────────────────────────
+adaptive-learning-frontend/dist/
+adaptive-learning-frontend/.angular/
+adaptive-learning-frontend/node_modules/
+
+# ── Runtime logs ────────────────────────────────────────────────────────────
+*.log
+backend*.log
+
+# ── IDE ─────────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+
+# ── OS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
