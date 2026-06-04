@@ -1,6 +1,8 @@
 # Adaptive Learning Path Builder
 ### NilaApps / Edrevel AI — Fullstack Developer Screening Task
 
+🔗 **Repository:** https://github.com/samelkensraja-dev/adaptive-learning-path-builder
+
 > **Candidate submission** — Full-stack application built with Angular 19 (frontend) and Java Spring Boot 3 (backend), implementing a visual drag-and-drop learning path builder with conditional adaptive routing, RSA+AES hybrid encryption, and a complete VAPT security audit.
 
 ---
